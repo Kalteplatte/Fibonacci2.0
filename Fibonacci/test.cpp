@@ -27,4 +27,4 @@ unsigned long Fibonacci5(int n);
 
 unsigned long Fibonacci6(int n);
 
-int main (){	int n;                /* test various numbers n */	cin >> n;	assert(Fibonacci1(n)==Fibonacci6(n));	assert(Fibonacci2(n)==Fibonacci6(n));	assert(Fibonacci3(n)==Fibonacci6(n));	assert(Fibonacci4(n)==Fibonacci6(n));	assert(Fibonacci5(n)==Fibonacci6(n));	int x=0;               /* Input so that the window stays */	cin >> x;	return 0;}
+int main (){	int n;                /* test various numbers n */	cin >> n;	assert(Fibonacci1(n)==Fibonacci6(n));    /* note that Fibonacci6 is correct, so its used for testing */	assert(Fibonacci2(n)==Fibonacci6(n));	assert(Fibonacci3(n)==Fibonacci6(n));	assert(Fibonacci4(n)==Fibonacci6(n));	assert(Fibonacci5(n)==Fibonacci6(n));	int x=0;               /* Input so that the window stays */	cin >> x;	return 0;}
